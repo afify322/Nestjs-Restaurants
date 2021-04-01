@@ -5,9 +5,9 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
-  "engine":{
-    "node":"v15.5.0",
-    "npm":"7.7.6"
+   "engines":{
+    "npm":"7.x",
+    "node":"15.x"
   },
   "scripts": {
     "prebuild": "rimraf dist",
