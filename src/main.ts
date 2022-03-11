@@ -33,7 +33,7 @@ async function bootstrap() {
     .addTag('Restaurant')
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document);
+  SwaggerModule.setup('/', app, document);
    app.enableCors();
 
   await app.listen(process.env.PORT || 3000);
